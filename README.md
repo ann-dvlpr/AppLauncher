@@ -9,7 +9,7 @@ AppLauncher is binary file to allow launching apps from Termux in easy way.
 - History is allowed
 - ~~Rootless~~ (soon)
 
-# Why AppLaunch was created?
+# Why AppLauncher was created?
 I love CLIs, Terminals and, I am now using Termux as my launcher. I didnt liked the GUI to start apps (App i used for that is SmartDock) so... I did my own launcher.
 
 # FAQs
