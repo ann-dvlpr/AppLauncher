@@ -1,7 +1,7 @@
-workedun=$(pwd)
+workedin=$(pwd)
 cd ~/code/FAS # workpath
 
-launch() {
+listaa() {
 	su -c "pm list packages &>> apps.txt"
 	sed -i -e 's/package://g' apps.txt
 	APP=$(cat apps.txt | sed 's/\/.*//' | gum filter)
@@ -12,7 +12,7 @@ launch() {
 
 if [[ $1 == "" ]]
 then
-	launch
+	listaa
 	OPEN=$(cat activities.txt | gum filter)
 	su -c am start --user 0 -n $OPEN
 	echo $OPEN >> history
@@ -48,7 +48,7 @@ then
 
 	if [[ $2 == "add" ]]
 	then
-		launch
+		listaa
 		cat activities.txt | gum filter >> shortcuts
 		rm -rf activities.txt
 		rm -rf apps.txt
