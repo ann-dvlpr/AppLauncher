@@ -1,4 +1,4 @@
-![Img](https://raw.githubusercontent.com/fluid-developer/fluid-developer.github.io/main/logos/AppLaunch-logo.png)
+![Img](https://raw.githubusercontent.com/fluid-developer/fluid-developer.github.io/main/logos/AppLauncher-logo.png)
 
 # AppLauncher
 AppLauncher is binary file to allow launching apps from Termux in easy way.
