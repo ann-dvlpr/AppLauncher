@@ -9,6 +9,7 @@ AppLauncher is binary file to allow launching apps from Termux in easy way.
 - Easy-to-use
 - No installation needed / Mainly just one file
 - History is allowed
+- Very, very fast
 - ~~Rootless~~ (soon)
 
 # Why AppLauncher was created?
@@ -17,10 +18,9 @@ I love CLIs, Terminals and, I am now using Termux as my launcher. I didnt liked 
 # Commands
 - `AppLaunch` - list all apps, then it's activities, launch
 - `AppLaunch -h` - launch an app (w/activity) from history
-- `AppLaunch -h clear` - clears the history fild
+- `AppLaunch -d history` - clears the history fild
 - `AppLaunch -s` - lists favourite apps
 - `AppLaunch -s add` - lists all apps, then it's activities, saves to a file so it can be executed with previous command
-# Upcoming 
 - `AppLaunch -d activities` - updates activities database manually
 
 # FAQs
