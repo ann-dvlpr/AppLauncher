@@ -20,6 +20,8 @@ I love CLIs, Terminals and, I am now using Termux as my launcher. I didnt liked 
 - `AppLaunch -h clear` - clears the history fild
 - `AppLaunch -s` - lists favourite apps
 - `AppLaunch -s add` - lists all apps, then it's activities, saves to a file so it can be executed with previous command
+# Upcoming 
+- `AppLaunch -d activities` - updates activities database manually
 
 # FAQs
 1. Q: Do it needs root?<br>
