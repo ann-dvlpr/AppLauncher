@@ -1,7 +1,7 @@
 ![Img](https://raw.githubusercontent.com/fluid-developer/fluid-developer.github.io/main/logos/AppLauncher-logo.png)
 
 # AppLauncher
-AppLauncher is binary file to allow launching apps from Termux in easy way.
+AppLauncher is Alpha-stage project which aims to allow user launch apps from Termux. For example if your home app is Termux.
 
 # Features
 - Favourites (Shortcuts)
