@@ -7,7 +7,7 @@ listaa() {
 	APP=$(cat apps.txt | sed 's/\/.*//' | gum filter)
 	# basic setup, prompt with a choice
 	su -c dumpsys package | grep -Eo $(printf "^[[:space:]]+[0-9a-f]+[[:space:]]+%s/[^[:space:]]+" "${APP}") | grep -oE "[^[:space:]]+$" | grep . &>> activities.txt
-	# save activities of selected app to a file
+	# save activities of all apps to a file
 }
 
 if [[ $1 == "" ]]
@@ -49,7 +49,7 @@ then
 	if [[ $2 == "add" ]]
 	then
 		listaa
-		cat activities.txt | gum filter >> shortcuts
+		cat activities.txt | grep $APP/ | gum filter >> shortcuts
 		rm -rf activities.txt
 		rm -rf apps.txt
 		# start, clean up, reset directory
